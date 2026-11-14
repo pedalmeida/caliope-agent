@@ -1,6 +1,6 @@
 # Calíope · a agente de design do Pedro Almeida
 
-Cópia de leitura do método da Calíope, tal como corre a 14 nov 2026, partilhada com o Pedro Ganço para auditoria. O objetivo é simples: abrires exatamente o que nós temos e dizeres o que melhorarias primeiro.
+Cópia de leitura do método da Calíope, tal como corre a 14 nov 2026, aberta para auditoria (primeiro pelo Pedro Ganço e a Íris). O objetivo é simples: descarregares exatamente o que nós temos e dizeres o que melhorarias primeiro.
 
 O pedido de auditoria está em [`AUDIT-PROMPT.md`](AUDIT-PROMPT.md). Podes colá-lo na Íris ou noutro agente apontado a este repositório.
 
@@ -57,4 +57,4 @@ python3 skills/pa-caliope/scripts/qa.py <pasta-ou-url> --routes / --shots /tmp/s
 
 Abre issues neste repositório, uma por melhoria, ou um único relatório. Se preferires, responde ao Pedro diretamente.
 
-Partilhado em privado para revisão. Não é para redistribuir. As partes vindas da Íris mantêm a licença MIT original (`skills/pa-caliope/scripts/iris/LICENSE`).
+Público para leitura e auditoria. As partes vindas da Íris mantêm a licença MIT original (`skills/pa-caliope/scripts/iris/LICENSE`); o resto é do Pedro Almeida, todos os direitos reservados.
