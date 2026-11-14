@@ -1,0 +1,4 @@
+interface:
+  display_name: "PA Design Loop"
+  short_description: "Calíope's design loop: references, this-or-that interview with Pedro, evals from his answers, fresh expert panel, synthetic users, max 3 fix rounds, feedback becomes checks"
+  default_prompt: "Use $pa-design-loop to design this new screen: brief with 3 jobs, references, interview Pedro with this-or-that pairs, turn answers into evals, then build and judge with machine checks, a fresh panel and synthetic users."

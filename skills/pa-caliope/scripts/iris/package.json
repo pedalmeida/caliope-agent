@@ -1,0 +1,13 @@
+{
+  "name": "caliope-iris-tools",
+  "private": true,
+  "type": "module",
+  "description": "Measuring tools ported from Íris (Pedro Ganço, MIT). Only screenshot.mjs and padroes-gastos.mjs need Playwright.",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

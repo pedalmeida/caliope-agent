@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="32" height="24" version="1.1" id="svg8" sodipodi:docname="star.svg" enable-background="new 0 0 32 32" xml:space="preserve">
+  <metadata id="metadata5"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format></cc:Work></rdf:RDF></metadata>
+  <sodipodi:namedview id="base" inkscape:zoom="11.2"/>
+  <defs id="defs2"/>
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+    <path id="star" style="fill:#FFC107;stroke:#333333;stroke-width:1.5" d="M 16.000001,2.1234567 L 19.5432101,11.0123456 L 29.0000001,11.4567891 L 21.6543211,17.5432101 L 24.2345671,26.9876541 L 16.000001,21.6543211 Z" onclick="alert(1)"/>
+    <circle id="star" cx="16" cy="16" r="2" fill="red" stroke="#333" stroke-width="2"/>
+    <g></g>
+  </g>
+</svg>

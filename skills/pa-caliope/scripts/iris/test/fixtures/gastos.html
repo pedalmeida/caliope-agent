@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Gastos</title>
+<style>
+@font-face{font-family:"Inter";src:local("Arial"),local("Helvetica")}
+body{margin:0;background:#0a0a0f;color:#eee;font-family:"Inter",sans-serif}
+nav{position:sticky;top:0;backdrop-filter:blur(16px);background:rgba(255,255,255,.08);padding:12px}
+.orb{position:absolute;width:500px;height:500px;background:radial-gradient(circle,#7c3aed,transparent 70%);filter:blur(60px)}
+.dots{background-image:radial-gradient(#444 1px,transparent 1px);background-size:20px 20px;height:300px}
+h1{background:linear-gradient(90deg,#f00,#ff0,#0f0,#0ff,#00f,#f0f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{background:#7c3aed;color:#fff;padding:12px 20px;display:inline-block}
+.btn:hover .arrow{transform:translateX(4px)}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 30px #000}
+.tres{display:flex;gap:16px;padding:16px}.card{flex:1;background:#16161d;border:1px solid #333;padding:20px}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px}.bento>div{background:#16161d;border-radius:16px;min-height:120px}.bento .big{grid-column:span 2;grid-row:span 2}
+.term{background:#000;font-family:Menlo,monospace;padding:16px}.lights{display:flex;gap:6px}.lights i{width:12px;height:12px;border-radius:50%;display:block}
+.hero{text-align:center;background:linear-gradient(180deg,#1a1033,#0a0a0f);padding:60px 0}
+.pill{display:inline-block;border-radius:999px;border:1px solid #555;padding:4px 12px;font-size:13px;margin-bottom:12px}
+.eye{text-transform:uppercase;letter-spacing:.15em;font-size:12px;margin:0}
+.zz{display:flex;gap:24px;padding:24px}.zz>div{flex:1}.zz img{width:300px;height:200px;background:#333;display:block}
+.split{display:flex;gap:24px;padding:24px}.split>div{flex:1}.split h2{font-size:40px;margin:0}
+.logos{display:flex;gap:16px}.logos img{width:80px;height:30px;background:#555}
+.rev{opacity:0;transition:opacity .2s}.rev.v{opacity:1}
+.mq{overflow:hidden;width:600px}.mq>div{display:flex;width:1600px;animation:corre 10s linear infinite}@keyframes corre{to{transform:translateX(-50%)}}
+.words span{display:inline-block;transform:translateY(0);margin-right:.3em}
+</style>
+<nav>Logo</nav><div class="orb"></div>
+<div class="hero"><span class="pill">New: version 2 is out</span><h1>Ship faster ✨</h1>
+<a class="btn" href="/signup">Get started</a> <a class="btn" href="/signup">Try free</a> <a class="btn" href="/signup">Create account</a></div>
+<p>It's not a todo list, it's a second brain.</p>
+<p>Built for teams — and for you. Fast – really fast.</p>
+<a class="btn" href="#">Get started <span class="arrow">→</span></a>
+<svg class="lucide lucide-sparkles" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v18"/></svg>
+<svg class="lucide lucide-zap" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l16 16"/></svg>
+<div class="tres"><div class="card"><h3>Fast 🚀</h3><p>Very fast.</p></div><div class="card"><h3>Secure</h3><p>Very safe.</p></div><div class="card"><h3>Simple</h3><p>Very easy.</p></div></div>
+<div class="bento"><div class="big"></div><div></div><div></div><div></div><div></div></div>
+<div class="term"><div class="lights"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i></div><pre>$ npx create-thing</pre></div>
+<div class="dots"></div>
+<p>Product screenshot coming soon</p>
+
+<p class="eye">Features</p><h2>Everything you need</h2>
+<div class="zz"><div><img alt=""></div><div><h3>Plan</h3><p>Text.</p></div></div>
+<div class="zz"><div><h3>Build</h3><p>Text.</p></div><div><img alt=""></div></div>
+<div class="zz"><div><img alt=""></div><div><h3>Ship</h3><p>Text.</p></div></div>
+<p class="eye">Pricing</p><h2>Simple plans</h2>
+<div class="split"><div><h2>Built for scale</h2></div><div><p>Short floating paragraph that says little.</p></div></div>
+<p class="eye">Customers</p><h2>Trusted by the best teams</h2>
+<div class="logos"><img alt="a"><img alt="b"><img alt="c"><img alt="d"><img alt="e"></div>
+<p style="font-size:48px">10k+</p>
+<blockquote>Great tool. - Ana</blockquote>
+<div class="mq"><div><span>Acme</span><span>Globex</span><span>Initech</span><span>Acme</span><span>Globex</span><span>Initech</span></div></div>
+<p class="words"><span>Build</span><span>the</span><span>future</span><span>today</span></p>
+<section class="rev" style="height:300px">um</section><section class="rev" style="height:300px">dois</section><section class="rev" style="height:300px">tres</section>
+<script>const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('v')));document.querySelectorAll('.rev').forEach(s=>io.observe(s))</script>
+</html>
